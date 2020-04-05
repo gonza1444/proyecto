@@ -1,0 +1,15 @@
+Profe:
+
+ 
+aca le dejo todo lo que hice del proyecto, tengo unas dudas y aclaraciones.
+
+Dudas:
+
+* tengo un problema con las sesiones, es decir, no me diferencia un administrador de un usuario, si bien no hice la parte viusal del admin, pero cuando se loguea x persona, aparece siempre la del usuario, y no se porque
+* tengo otro problema que es con los productos, por el momento va a ser todo visual, porque no puedo hacer la funcion para que de todas las cards, cuando entre a una me muestre toda la informacion de esa card, es con un each, pero no me lo muestra en la parte visual
+
+
+Aclaraciones: 
+
+* tengo solo un usuario con el permiso 1 (administrador). proba lo que es el registro y el login
+* para hacer las consultas tengo seteado mi mail, por lo que si queres podes modificarlo con tu mail asi lo probas en el momento o esperas a que te verifique si me llego algo.
