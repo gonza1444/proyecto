@@ -1,0 +1,45 @@
+<div class="container mt-5">
+    <div class="row ">
+        <div class="col-6" >
+        <img src="/images/90824956_676662529811361_6859155659590481361_n.jpg" class="rounded mx-auto d-block" alt="..." style="height: 500px;">
+    </div>
+        <div class="col-4">
+            <h4 class="text-center">Registrate:</h4>
+            <form action="/registro" method="post">
+                 <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" autofocus id="nombre" name="nombre" placeholder="Example" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Mail</label>
+
+                    <input type="email" name="mail" placeholder="example@example.com" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" name="telefono" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha de Nacimiento</label>
+                    <input type="date" name="fecha" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+
+                {{#if status}}
+                <h5 class="text-center text-success mt-3">{{message}}</h5>
+                {{else}}
+                <h5 class="text-center text-danger mt-3">{{message}}</h5>
+                {{/if}}
+            </form>
+            <br>
+            <br>
+            <h6>Ya tenés una cuenta? Ingrese <a href="/login">aquí</a></h6>
+        </div>
+    </div>
+</div>
+<br>
+<br>
